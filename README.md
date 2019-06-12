@@ -1,4 +1,4 @@
-# webapp-template
+# webapp-template-python
 Webapp template using docker-compose with python flask, nginx and mongoDB.
 
 ## Use case
