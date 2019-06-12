@@ -18,13 +18,13 @@ The `app/requirements.txt` file containing all necessary python packages is moun
 
 ## Creating an app based on this template
 
-An app can be built by using the generated python/Flask foundation. By using docker-compose with mongodb and nginx, the app will have an integrated database it can call upon as well as a complete webserver proxy to host the app.
+An app can be built by using the generated python/Flask foundation. By using docker-compose with mongoDB and nginx, the app will have an integrated database it can call upon as well as a complete webserver proxy to host the app.
 
 The template is fairly flexible and may be adjusted to the needs required by the app.
 
 ### App debugging
 
-Keep the mongodb data within the container by commenting out a line within the `docker-compose.yml` that mounts a volume containing the data:
+Keep the mongoDB data within the container by commenting out a line within the `docker-compose.yml` that mounts a volume containing the data:
 
 ```yml
 volumes:
@@ -62,7 +62,7 @@ sudo chmod 444 server.crt
 
 `docker-compose up --build --detach`
 
-## Stop and remove docker-compose images
+## Stop and remove docker-compose containers
 
 ```bash
 sudo docker-compose stop app nginx mongodb
