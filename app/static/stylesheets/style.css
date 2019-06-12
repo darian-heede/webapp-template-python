@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400,700');
+
+html { 
+  background: url(../images/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  margin: 0;
+	padding: 0;
+	/*background-color: #000000;*/
+}
+
+a {
+	color: #0094BA;
+}
+
+.tile {
+	padding: 10px;
+	background-color: #fafafa;
+	opacity: 0.9;
+	transition: transform .2s;
+	width: 500px;
+	height: auto;
+	margin: 25px auto;
+	filter: drop-shadow(0 0 0.25rem black);
+	border-radius: 0.5em;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 10pt;
+}
+
+td.key {
+	font-weight: 700;
+	padding: 2px 5px;
+}
+
+td.value {
+	font-weight: 300;
+	padding: 2px 5px;
+}
+
+.tile:hover {
+	-ms-transform: scale(1.1); /* IE 9 */
+	-webkit-transform: scale(1.1); /* Safari 3-8 */
+	transform: scale(1.1);
+}
+
+h1 {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 32pt;
+	font-weight: 800;
+	padding-top: 30px;
+	color: #f0f0f0;
+}
+
+h2 {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 16pt;
+	font-weight: 300;
+	color: #f0f0f0;
+	font-style: italic;
+}
+
+h3 {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 10pt;
+	font-weight: 700;
+	font-style: regular;
+}
