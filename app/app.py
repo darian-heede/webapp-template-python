@@ -38,8 +38,8 @@ def home():
 	client.close()
 	return(render_template('index.html', data=data))
 
-if __name__ == '__main__':
-	app.run(
-		host=getenv('FLASK_HOST')
-		,port=getenv('FLASK_PORT')
-	)
+#if __name__ == '__main__':
+#	app.run(
+#		host=getenv('FLASK_HOST')
+#		,port=getenv('FLASK_PORT')
+#	)

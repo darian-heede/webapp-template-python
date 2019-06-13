@@ -3,7 +3,7 @@ Webapp template using docker-compose with python flask, nginx and mongoDB.
 
 ## Use case
 
-This docker-compose project can be used as a template for different web applications. The services included are an [nginx][1] webserver, a [mongo][2] database and an [python][3]/[Flask][4] template app, which can be built upon.
+This docker-compose project can be used as a template for different web applications. The services included are an [nginx][1] webserver, a [mongo][2] database and an [python][3]/[Flask][4] template app, which can be built upon. The implemented use of [gunicorn][7] make the webapp non-blocking.
 
 
 ## Prerequisites
@@ -76,3 +76,4 @@ sudo docker-compose rm app nginx mongodb
 [4]: http://flask.pocoo.org/docs
 [5]: https://www.mongodb.com/products/compass
 [6]: https://www.openssl.org/docs/manmaster/man1/openssl-req.html
+[7]: https://gunicorn.org/#docs
